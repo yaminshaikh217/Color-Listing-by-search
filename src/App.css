@@ -1,0 +1,42 @@
+/* Global Styles */
+*,*::before,*,::after {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+
+body{
+  min-height: 100vh;
+  background: rgb(202, 236, 255);
+  display: flex;
+  justify-content: center;
+}
+h1{
+  margin: 1.5rem 0;
+  font-size: 2rem;
+}
+input , .btn {
+  cursor: pointer;
+  background: #f6f6f6;
+  border: 2px solid #9ad4ed;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  font-weight: 600;
+
+}
+input:focus{
+  outline: none;
+}
+.card {
+  width: 20rem;
+  aspect-ratio: 1 / 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+  font-weight: 600;
+}
